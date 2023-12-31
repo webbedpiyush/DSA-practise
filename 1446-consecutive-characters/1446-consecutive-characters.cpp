@@ -3,7 +3,7 @@ public:
     int maxPower(string s) {
         int maxi = 1;
         int occ = 0;
-        for (int i = 0; i < s.size(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s[i] == s[i + 1])
                 occ++;
             else
